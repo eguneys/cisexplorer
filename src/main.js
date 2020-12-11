@@ -1,3 +1,10 @@
+import ChessMd from 'chessmd';
+import content from './content';
+
 export function app(element, options) {
-  console.log(element, options);
+
+  ChessMd(element, {
+    content
+  });
+
 }
